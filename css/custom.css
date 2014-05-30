@@ -1,0 +1,650 @@
+/* Normalize again */
+p,li,span {
+	font-size: 1.2em;
+	font-family: 'Roboto',sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+a,a:focus,a:active {
+	text-decoration: underline;
+	color: white; 
+	font-family: 'Roboto',sans-serif;
+	font-weight: 900;
+	font-style: italic;
+
+}
+
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+h1,h2 {
+	line-height: 0;
+}
+
+.white {
+	color: white;
+}
+
+.right .vst a,
+.left .vst a,
+.bot .vst a {
+	display: block;
+	height: 40px;
+	width: 160px;
+	background: url('/bcg/img/visit-website.png') no-repeat 0px -20px;
+	line-height: 10em;
+	overflow: hidden;
+}
+.vst,
+.eqn {
+	display: inline-block;
+}
+
+
+.intact-wrapper {
+	display: block;
+	float: left;
+	text-align: left;
+}
+
+.smallor {
+
+}
+
+@media only screen and (max-width : 320px) {
+	section.top h1,
+	section.top h2	{
+		font-size: 170% !important;
+	}
+	section.top h3 {
+		font-size: 90%;
+	}
+}
+
+@media only screen and (min-width : 320px) and (max-width : 568px) {	
+	section.top {
+		padding-bottom: 0 !important;
+	}
+} 
+
+
+/* Smartphones (landscape) ----------- 
+@media only screen 
+and (min-width : 321px) { Styles */
+
+/* Smartphones (portrait) ----------- 
+@media only screen 
+and (max-width : 320px) { Styles */
+
+/* iPads (portrait and landscape) ----------- 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) { Styles */
+
+/* iPads (landscape) ----------- */
+
+
+
+/* Small Tablet ( for 600x800 portrait) ---------- */
+@media only screen and (max-width : 768px) {
+	section.left {
+		position: relative;
+		display: block;
+		top: 17%;
+		width: 92%;
+		padding: 4%;
+		color: white;
+		left: 0;
+		background: rgba(0,0,0,0.7);
+		z-index: 15;
+	}
+
+	.interact-wrapper {
+		text-align: right;
+	}
+
+	section.left p,
+	section.left li,
+	section.left .smallor,
+	section.right p,
+	section.right li,
+	section.right .smallor,
+	section.bot p,
+	section.bot li,
+	section.bot .smallor	
+	 {
+		font-size: 90%;
+	}
+
+	section.left .eqn a,
+	section.right .eqn a,
+	section.bot .eqn a
+	 {
+		font-size: 100%;
+	}
+
+	section.right {
+		display: block;
+		position: relative;
+		top: 17.5%;
+		right: 0;
+		width: 92%;
+		padding: 4%;
+		color: white;
+		background: rgba(0,0,0,0.7);
+		z-index: 15;
+
+	}
+	section.top {
+		display: block;
+		position: relative;
+		width: 92%;
+		min-height: 30%;
+		top: 0;
+		left: 0;
+		padding: 4% 4% 0 4%;
+		text-align: center;
+		z-index: 20;
+		font-size: 80%;
+		background: rgba(0,0,0,0.7);
+	}
+	section.top h1 {
+		color: yellow;
+		font-size: 3em;
+		margin: 0;
+	}
+	section.top h2 {
+		color: white;
+		font-size: 2.5em;
+		margin: 0;
+	}
+	section.top h1,
+	section.top h2,
+	section.top h3,
+	section.top h4 {
+		margin: 0;
+
+	}
+
+	section.top h3,
+	section.top h4	{
+		color: white;
+		font-size: 1.2em;
+
+	}
+	section.top p {
+		margin: 0;
+		color: yellow;
+	}
+	section.bot {
+		display: block;
+		position: relative;
+		width: 92%;
+		min-height: 25%;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: 4%;
+		text-align: left;
+		color: white;
+		background: rgba(0,0,0,0.7);
+		z-index: 10;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	section.left {
+		position: absolute;
+		display: block;
+		top: 17%;
+		width: 30%;
+		padding: 1%;
+		color: white;
+		left: 0;
+		background: rgba(0,0,0,0.5);
+		z-index: 15;
+	}
+
+	p,pre {
+		margin: 50% 0;
+	}
+
+	section.left p,
+	section.left li,
+	section.left .smallor,
+	section.right p,
+	section.right li,
+	section.right .smallor,
+	section.bot p,
+	section.bot li,
+	section.bot .smallor,
+	section.top p,
+	section.top li,
+	section.top .smallor	
+	 {
+		font-size: 80%;
+	}
+
+	section.left .eqn a,
+	section.right .eqn a,
+	section.bot .eqn a
+	 {
+		font-size: 100%;
+	}
+
+	section.right {
+		display: block;
+		position: absolute;
+		top: 17.5%;
+		right: 0;
+		width: 30%;
+		padding: 1%;
+		color: white;
+		background: rgba(0,0,0,0.5);
+		z-index: 15;
+
+	}
+	section.top {
+		display: block;
+		position: absolute;
+		width: 100%;
+		min-height: 30%;
+		top: 0;
+		left: 0;
+		margin: 1% auto;
+		text-align: center;
+		z-index: 20;
+		font-size: 90%;
+	}
+	section.top h1 {
+		color: yellow;
+		font-size: 3em;
+		margin: 0;
+	}
+	section.top h2 {
+		color: white;
+		font-size: 2.5em;
+		margin: 0;
+	}
+	section.top h1,
+	section.top h2,
+	section.top h3,
+	section.top h4 {
+		margin: 0;
+
+	}
+
+	section.top h3,
+	section.top h4	{
+		color: white;
+		font-size: 1.2em;
+
+	}
+	section.top p {
+		margin: 0;
+		color: yellow;
+	}
+	section.bot {
+		display: block;
+		position: absolute;
+		width: 80%;
+		min-height: 25%;
+		bottom: 0;
+		left: 0;
+		padding: 1% 10%;
+		text-align: center;
+		color: white;
+		background: rgba(0,0,0,0.5);
+		z-index: 10;
+	}
+	section.bot img {
+		max-width: 40%;
+	}
+
+}
+
+/* Small Desktops and laptops ----------- */
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+	section.left li,
+	section.left .smallor,
+	section.right p,
+	section.right li,
+	section.right .smallor,
+	section.bot p,
+	section.bot li,
+	section.bot .smallor,
+	section.top p,
+	section.top li,
+	section.top .smallor	
+	 {
+		font-size: 70%;
+	}
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+	section.left {
+		position: absolute;
+		display: block;
+		top: 17%;
+		width: 30%;
+		padding: 1%;
+		color: white;
+		left: 0;
+		background: rgba(0,0,0,0.5);
+		z-index: 15;
+	}
+
+	section.left p,
+	section.left li,
+	section.left .smallor,
+	section.right p,
+	section.right li,
+	section.right .smallor,
+	section.bot p,
+	section.bot li,
+	section.bot .smallor,
+	section.top p,
+	section.top li,
+	section.top .smallor	
+	 {
+		font-size: 80%;
+	}
+
+	section.left .eqn a,
+	section.right .eqn a,
+	section.bot .eqn a
+	 {
+		font-size: 100%;
+	}
+
+	section.right {
+		display: block;
+		position: absolute;
+		top: 17.5%;
+		right: 0;
+		width: 30%;
+		padding: 1%;
+		color: white;
+		background: rgba(0,0,0,0.5);
+		z-index: 15;
+
+	}
+	section.top {
+		display: block;
+		position: absolute;
+		width: 100%;
+		min-height: 30%;
+		top: 0;
+		left: 0;
+		margin: 1% auto;
+		text-align: center;
+		z-index: 20;
+		font-size: 75%;
+	}
+	section.top h1 {
+		color: yellow;
+		font-size: 3em;
+		margin: 0;
+	}
+	section.top h2 {
+		color: white;
+		font-size: 2.5em;
+		margin: 0;
+	}
+	section.top h1,
+	section.top h2,
+	section.top h3,
+	section.top h4 {
+		margin: 0;
+
+	}
+
+	section.top h3,
+	section.top h4	{
+		color: white;
+		font-size: 1.2em;
+
+	}
+	section.top p {
+		margin: 0;
+		color: yellow;
+	}
+	section.bot {
+		display: block;
+		position: absolute;
+		width: 100%;
+		min-height: 25%;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+		color: white;
+		background: rgba(0,0,0,0.5);
+		z-index: 10;
+	}
+	section.bot img {
+		max-width: 35%;
+	}
+	section.interact-wrapper {
+		padding-bottom: 2%;
+	}
+}
+
+
+/* Large Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) and (max-width: 1599px) {
+	section.left {
+		position: absolute;
+		display: block;
+		top: 23%;
+		width: 26%;
+		height: 54%;
+		margin:0 3% 0;
+		color: white;
+		left: 0;
+	}
+
+	section.left p,
+	section.left li,
+	section.left .smallor,
+	section.right p,
+	section.right li,
+	section.right .smallor,
+	section.bot p,
+	section.bot li,
+	section.bot .smallor,
+	section.top p,
+	section.top li,
+	section.top .smallor	
+	 {
+		font-size: 80%;
+	}
+
+	section.left .eqn a,
+	section.right .eqn a,
+	section.bot .eqn a
+	 {
+		font-size: 150%;
+	}
+
+	section.right {
+		display: block;
+		position: absolute;
+		top: 23%;
+		right: 0;
+		width: 26%;
+		margin:0 3% 0;
+		height: 50%;
+		color: white;
+
+	}
+	section.top {
+		display: block;
+		position: absolute;
+		width: 100%;
+		min-height: 30%;
+		top: 0;
+		left: 0;
+		margin: 1% auto;
+		text-align: center;
+	}
+	section.top h1 {
+		color: yellow;
+		font-size: 3em;
+		margin: 0;
+	}
+	section.top h2 {
+		color: white;
+		font-size: 2.5em;
+		margin: 0;
+	}
+	section.top h1,
+	section.top h2,
+	section.top h3,
+	section.top h4 {
+		margin: 0;
+
+	}
+
+	section.top h3,
+	section.top h4	{
+		color: white;
+		font-size: 1.2em;
+
+	}
+	section.top p {
+		margin: 0;
+		color: yellow;
+	}
+	section.bot {
+		display: block;
+		position: absolute;
+		width: 100%;
+		min-height: 30%;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		text-align: center;
+		color: white;
+	}
+	section.bot p {
+		max-width: 50%;
+		margin: 0 auto;
+	}
+	section.bot img {
+		max-width: 30%;
+	}
+
+
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1600px) {
+	section.left {
+		display: block;
+		position: absolute;
+		top: 23%;
+		left: 0;
+		width: 26%;
+		margin:0 6% 0;
+		max-height: 47%;
+		color: white;
+
+	}
+	section.right {
+		display: block;
+		position: absolute;
+		top: 23%;
+		right: 0;
+		width: 26%;
+		margin:0 6% 0;
+		max-height: 47%;
+		color: white;
+
+	}
+	section.top {
+		display: block;
+		position: absolute;
+		width: 100%;
+		min-height: 30%;
+		top: 0;
+		left: 0;
+		margin: 1% auto;
+		text-align: center;
+	}
+	section.top h1 {
+		color: yellow;
+		font-size: 3em;
+		margin: 0;
+	}
+	section.top h2 {
+		color: white;
+		font-size: 2.5em;
+		margin: 0;
+	}
+	section.top h1,
+	section.top h2,
+	section.top h3,
+	section.top h4 {
+		margin: 0;
+
+	}
+
+	section.top h3,
+	section.top h4	{
+		color: white;
+		font-size: 1.2em;
+
+	}
+	section.top p {
+		margin: 0;
+		color: yellow;
+	}
+	section.bot {
+		display: block;
+		position: absolute;
+		width: 30%;
+		min-height: 30%;
+		bottom: 1%;
+		left: 0;
+		right: 0;
+		margin: auto;
+		text-align: center;
+		color: white;
+	}
+
+	section.bot img {
+		max-width: 80%;
+	}
+
+	section.interact-wrapper {
+		font-size: 150%;
+	}
+	
+	section.left p,
+	section.left li,
+	section.left .smallor,
+	section.right p,
+	section.right li,
+	section.right .smallor,
+	section.bot p,
+	section.bot li,
+	section.bot .smallor,
+	section.top p,
+	section.top li,
+	section.top .smallor	
+	 {
+		font-size: 100%;
+	}
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+
+}
+
+
